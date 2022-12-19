@@ -1,0 +1,82 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass";
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18rem;
+    height: 17rem;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: left;
+    
+}
+
+.text-p {
+    font-family: "Overpass";
+    color: hsl(217, 12%, 63%);
+    font-size: 14.5px;
+    line-height: 1.5;
+
+}
+
+.heading {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.btn-container {
+    margin: 1rem 0 1rem 0;
+    text-align: justify;
+}
+
+.rating-btn {
+    background-color: hsl(223, 6%, 23%);
+    border: none;
+    border-radius: 100%;
+    padding: 3% 4.5%;
+    color: hsl(217, 12%, 63%);
+    font-size: 15;
+    height: 40px;
+    width: 40px;
+    margin: 0 7px 0 7px;
+}
+
+.rating-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+.star {
+    margin-left: 10px;
+}
+
+
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    padding: .8rem 7.09rem;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2.5px;
+    font-family: "Overpass";
+    font-style: bold;
+
+}
